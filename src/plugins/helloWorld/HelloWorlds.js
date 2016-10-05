@@ -1,34 +1,54 @@
 class helloWorlds {
   constructor() {
     this.examples = [
-      '#  cat test.jl\
-      println("Hello World")',
+      '```\n' +
+      'println("Hello World")\n' +
+      '```',
 
-      'object HelloWorld {\
-        def main(args: Array[String]) {\
-          println("Hello World")\
-        }\
-      }',
+      '```\n' +
+      'object HelloWorld {\n' +
+      '   def main(args: Array[String]) {\n' +
+      '    println("Hello World")\n' +
+      '  }\n' +
+      '}\n' +
+      '```',
 
-      '#include<stdio.h>\
-      main()\
-      {\
-        printf("Hello World");\
-      }',
+      '```\n' +
+      '#include<stdio.h>\n' +
+      'main()\n' +
+      '{\n' +
+      '  printf("Hello World");\n' +
+      '}\n' +
+      '```',
 
-      'print("Hello World")',
+      '```\n' +
+      'print("Hello World")\n' +
+      '```',
 
-      'PRINT *, "Hello World"\
-      END',
-      'console.log("Hello World")',
+      '```\n' +
+      'PRINT *, "Hello World"\n' +
+      'END\n' +
+      '```',
 
-      'puts "Hello World"',
-      '++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.',
-      'class HelloWorldApp {\
-         public static void main(String[] args) {\
-         System.out.println("Hello World!");\
-        }\
-      }',
+      '```\n' +
+      'console.log("Hello World")\n' +
+      '```',
+
+      '```\n' +
+      'puts "Hello World"\n ' +
+      '```',
+
+      '```\n' +
+      '++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.\n' +
+      '```',
+
+      '```\n' +
+      ' class HelloWorldApp {\n' +
+      '    public static void main(String[] args) {\n' +
+      '    System.out.println("Hello World!");\n' +
+      '   }\n' +
+      ' }\n' +
+      '```',
     ];
   }
 
