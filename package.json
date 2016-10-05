@@ -4,7 +4,10 @@
   "description": "A slackbot made by QUT to take over UQ",
   "main": "src/index.js",
   "scripts": {
+    "postinstall": "npm run compile",
     "start": "./node_modules/.bin/babel-node --presets es2015 ./src/index.js",
+    "server": "node ./target/server/index.js",
+    "compile": "./node_modules/.bin/babel app --out-dir target --copy-files",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
