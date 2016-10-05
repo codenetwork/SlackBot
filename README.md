@@ -14,3 +14,15 @@ npm start
 
 ### Linter
 We're currently using Wallmart Lab's ES6 linter standard.
+
+### Logging
+Upon your plugin successfully completing a task, you should log with what task was
+complete. For example: 
+
+```js
+console.log(`helloWorld: Responding with wit to ${message.channel}`);
+```
+
+This signifies that the helloWorld plugin has successfully began responding to a event.
+Preferably, an error handling callback should be done, but, I'm still half asleep.
+I'll do it later.
