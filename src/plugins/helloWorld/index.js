@@ -3,7 +3,7 @@ import HelloWorlds from './HelloWorlds';
 
 const helloGenerator = new HelloWorlds();
 
-function getHelloWorld(opts) {
+export default function getHelloWorld(opts) {
   opts.rtm.on(RTM_EVENTS.MESSAGE, (message) => {
     if (message.type === 'message') {
       const flattened = message.text.toLowerCase().replace(/\s/g, '');
@@ -14,5 +14,3 @@ function getHelloWorld(opts) {
     }
   });
 }
-
-export default opts => getHelloWorld(opts);

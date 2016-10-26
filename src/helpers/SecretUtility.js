@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-class SecretUtility {
+export default class SecretUtility {
   constructor() {
     this.slackKeyPath = path.join(__dirname, '..', 'config', 'keys', 'SLACK_API.json');
     this.slackAPI = null;
@@ -30,5 +30,3 @@ class SecretUtility {
     return this.slackAPI;
   }
 }
-
-export default SecretUtility;

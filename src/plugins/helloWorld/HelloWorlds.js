@@ -1,4 +1,4 @@
-class helloWorlds {
+export default class helloWorlds {
   constructor() {
     this.examples = [
       '```\n' +
@@ -62,5 +62,3 @@ class helloWorlds {
     return Math.floor(Math.random() * (newMax - newMin)) + newMin;
   }
 }
-
-export default helloWorlds;

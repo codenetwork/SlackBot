@@ -8,6 +8,7 @@
     "start": "./node_modules/.bin/babel-node --presets es2015 ./src/index.js",
     "server": "node ./target/server/index.js",
     "compile": "./node_modules/.bin/babel src --out-dir target --copy-files",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {

@@ -1,7 +1,5 @@
 import SecureUtility from './SecretUtility';
 
-const allExports = {
+export default {
   SecureUtility,
 };
-
-export default allExports;
