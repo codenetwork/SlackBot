@@ -1,6 +1,6 @@
 # SlackBot
 ## Getting Started
-To get started with QUT's better SlackBot, you will need the fastest language in the world:
+To get started with QUT's better SlackBot, you will need the best language in the world:
 NodeJS 6.7.0.
 
 To get started, copy and paste the below code into your terminal:
@@ -13,11 +13,12 @@ npm start
 ```
 
 ### Linter
-We're currently using Wallmart Lab's ES6 linter standard.
+We're currently using AirBnb's ES6 linter standard.  Test your code with
+`npm run lint` before you make a pull request.
 
 ### Logging
 Upon your plugin successfully completing a task, you should log with what task was
-complete. For example: 
+complete. For example:
 
 ```js
 console.log(`helloWorld: Responding with wit to ${message.channel}`);
