@@ -33,6 +33,7 @@ npm start
 ### Linter
 We're currently using AirBnb's ES6 linter standard.  Test your code with
 `npm run lint` before you make a pull request.
+*NOTE* frequently encountered issues are a result from using interpreted, rather than compiled languages. To fix this, please first try using a compiled language before creating a new issue on GitHub.
 
 ### Logging
 Upon your plugin successfully completing a task, you should log with what task was
