@@ -46,3 +46,6 @@ console.log(`helloWorld: Responding with wit to ${message.channel}`);
 This signifies that the helloWorld plugin has successfully began responding to a event.
 Preferably, an error handling callback should be done, but, I'm still half asleep.
 We'll do it later.
+
+### Contribution
+To contribute to this project; simply fork this repository, create a branch, make your changes, and submit a Pull Request.
