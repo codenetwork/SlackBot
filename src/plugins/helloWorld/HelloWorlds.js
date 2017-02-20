@@ -49,6 +49,10 @@ export default class helloWorlds {
       '   }\n' +
       ' }\n' +
       '```',
+      
+      '```\n'+
+      'fun main(args: Array<String>) = println("Hello World!")\n' +
+      '```'
     ];
   }
 
